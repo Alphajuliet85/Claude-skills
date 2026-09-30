@@ -14,3 +14,10 @@
 /plugin marketplace add Alphajuliet85/Claude-skills
 /plugin install claude-skills@claude-skills
 ```
+
+## Hooks
+
+`hooks/hooks.json` adds a pre-commit guard: before any `git commit` Claude runs, it
+runs `bun run build`, `bun run lint`, and typecheck, and blocks the commit on failure.
+It only activates inside a repo whose `package.json` name is `hyperframes-monorepo`;
+everywhere else it exits silently.
