@@ -1,0 +1,9 @@
+{
+  "name": "claude-skills",
+  "description": "Motion and video-production skills for HyperFrames: motion doctrine, cut-the-curve seams, oversized cursor, captions overlay, and the changelog-video pipeline.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Alphajuliet85"
+  },
+  "repository": "https://github.com/Alphajuliet85/Claude-skills"
+}

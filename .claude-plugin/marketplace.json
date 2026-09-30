@@ -1,0 +1,21 @@
+{
+  "name": "claude-skills",
+  "owner": {
+    "name": "Alphajuliet85"
+  },
+  "plugins": [
+    {
+      "name": "claude-skills",
+      "source": "./",
+      "description": "Motion and video-production skills for HyperFrames: motion doctrine, cut-the-curve seams, oversized cursor, captions overlay, and the changelog-video pipeline.",
+      "skills": [
+        "./skills/motion-doctrine",
+        "./skills/cut-the-curve",
+        "./skills/oversized-cursor",
+        "./skills/captions-overlay",
+        "./skills/changelog-video"
+      ]
+    }
+  ],
+  "description": "Personal Claude Code skills marketplace."
+}
